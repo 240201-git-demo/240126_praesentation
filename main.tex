@@ -14,6 +14,15 @@
 \usepackage{diagbox}
 \usepackage{xcolor}
 \usepackage{listings}
+\lstset{
+    backgroundcolor=\color{black},
+    basicstyle=\footnotesize,
+    basicstyle=\color{white},
+    breaklines=true,
+    xleftmargin=-2cm,
+    framesep=5pt,
+    keywordstyle=\color{blue}
+}
 
 \title{Versionskontrolle von Texten}
 \subtitle{Git und GitHub}
@@ -154,21 +163,18 @@
             
     \end{frame}
 
-    \begin{frame}
+    \begin{frame}[fragile]
         \frametitle{Mein erstes Projekt}
 
-        \begin{itemize}
-            \item GitHub Credentials auf dem lokalen Computer einrichten
-            (einmalig erforderlich):
+        Vorbereitung:
 
-            \begin{lstlisting}[language=Bash]
-                >git config --global user.name = "John Doe"
+        \begin{lstlisting}[language=Bash]
+            git config --global user.name = "John Doe"
 
-                >git config --global user.email = john.doe@kbw.ch
-            \end{lstlisting}
+            git config --global user.email = john.doe@kbw.ch
+        \end{lstlisting}
 
-
-        \end{itemize}
+        
     
         
     
