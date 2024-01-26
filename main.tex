@@ -32,7 +32,65 @@
 
     \begin{frame}
         \frametitle{Ausgangslage}
-        \includegraphics[width=\textwidth]{images/word_markup.png}
+        Wer kennt das nicht?
+
+        \vspace*{5mm}
+
+       \only<2>{\includegraphics[width=\textwidth]{images/word_markup.png}} 
+       \only<3>{\includegraphics[width=\textwidth]{images/file_manager.png}}
     \end{frame}
+
+    \begin{frame}
+        \frametitle{Ausgangslage}
+        Das hoffentlich nicht, aber wer weiss?
+
+        \vspace*{5mm}
+
+       \visible<2>{\includegraphics[width=\textwidth]{images/burning_laptop.png}} 
+       
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Warum Versionierung}
+
+        \begin{itemize}
+            \item Back-up
+            \item just one source of truth
+            \item transparente Textgenese
+        \end{itemize}
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{Back-up}
+
+        \begin{itemize}
+            \item lokales Back-up
+                
+            nicht so sicher -- insbesondere im Falle eines Velusts des
+            Computers
+            
+           \item Back-up in der Cloud
+           \begin{itemize}
+            \item GitHub
+            \item GitLab
+            \item GitBucket
+            \item Azure Repos
+            \item \dots
+           \end{itemize}
+        \end{itemize}   
+        
+    
+    \end{frame}
+
+    \begin{frame}
+        \frametitle{just one source of truth}
+
+        \visible<overlay specification>{\includegraphics[width=\textwidth]{images/git_graph_details.png}}
+  
+        
+    
+    \end{frame}
+
+    
 
 \end{document}
